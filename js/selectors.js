@@ -8,7 +8,7 @@ export function getCellElementList() {
 }
 
 export function getCurrentTurnElement() {
-    return document.getElementById("curentTurn");
+    return document.getElementById("currentTurn");
 }
 
 export function getCellElementAtIdx(index) {
@@ -16,5 +16,9 @@ export function getCellElementAtIdx(index) {
 }
 
 export function getGameStatusElement() {
-    return document.getElementById("gameStatus")
+    return document.getElementById("gameStatus");
+}
+
+export function getReplayButtonElement() {
+    return document.getElementById("replayGame");
 }
